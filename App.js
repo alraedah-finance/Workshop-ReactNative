@@ -7,7 +7,7 @@ export default function App() {
         <Text>Hellow world 1</Text>
       </View>
       <Text style={styles.h1text}>Hellow world 2</Text>
-      <Button title="tap me" />
+      <Button title="tap me!" />
     </View>
   );
 }
