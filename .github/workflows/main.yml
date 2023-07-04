@@ -34,7 +34,7 @@ jobs:
       - name: Build Android Release
         run: |
           ls -ltrh
-          ./gradlew assembleRelease
+          gradle assembleRelease
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
